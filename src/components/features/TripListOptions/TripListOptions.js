@@ -16,7 +16,7 @@ class TripListOptions extends React.Component {
   }
 
   handleDuration(type, value){
-    if (type == 'from') {
+    if (type === 'from') {
       this.props.changeDurationFrom(value);
     } else {
       this.props.changeDurationTo(value);
